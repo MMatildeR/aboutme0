@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>María Matilde Rodríguez — Editora</title>
+  <meta name="description" content="María Matilde Rodríguez, editora. Nueve años de trabajo editorial, con interés creciente en visualización de datos.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#inicio">M. Matilde Rodríguez</a>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__menu" id="navMenu">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#en-que-trabajo">En qué trabajo</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__inner">
+        <img class="hero__photo" src="IMG/FotoCV.png" alt="Retrato de María Matilde Rodríguez">
+        <div class="hero__text">
+          <p class="hero__eyebrow">Editora</p>
+          <h1>María Matilde<br>Rodríguez</h1>
+          <p class="hero__lead">Nueve años acompañando libros de principio a fin, con la mirada puesta cada vez más en cómo se diseñan los datos.</p>
+          <div class="hero__actions">
+            <a class="btn btn--solid" href="#contacto">Escribime</a>
+            <a class="btn btn--ghost" href="#sobre-mi">Sobre mí</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="contenido">
+      <section class="section" id="sobre-mi">
+        <div class="section__inner">
+          <h2>Sobre mí</h2>
+          <div class="section__body">
+            <p>Soy editora por la Facultad de Filosofía y Letras de la Universidad de Buenos Aires. Llevo nueve años trabajando con libros, una labor que me enseñó a acompañar a las personas en la búsqueda de conocimiento, en la resolución de inquietudes y en el acceso a material educativo. También me sumergió en la cultura gráfica, dándome un panorama sobre su producción, su circulación y sus interfaces.</p>
+            <p>A partir de esa formación, y de mi apreciación por la cultura gráfica, desarrollé interés por la visualización de datos y por las herramientas que llevan a una mirada data-driven. Me gustaría combinar programación con mis habilidades de diseño para generar material de alto valor estético que represente, de forma lógica, grandes volúmenes de información.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="en-que-trabajo">
+        <div class="section__inner">
+          <h2>En qué trabajo</h2>
+          <dl class="colofon">
+            <div class="colofon__row">
+              <dt>Edición y corrección</dt>
+              <dd>Cuidado de texto y acompañamiento del proceso editorial de principio a fin.</dd>
+            </div>
+            <div class="colofon__row">
+              <dt>Producción editorial</dt>
+              <dd>Coordinación entre autoría, diseño e imprenta para que un libro llegue a destino.</dd>
+            </div>
+            <div class="colofon__row">
+              <dt>Cultura gráfica</dt>
+              <dd>Interés por cómo se produce, circula y se lee el material impreso y digital.</dd>
+            </div>
+            <div class="colofon__row">
+              <dt>Visualización de datos</dt>
+              <dd>Un campo nuevo para mí, donde busco unir diseño y lógica de la información.</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section section--band" id="contacto">
+        <div class="section__inner section__inner--center">
+          <h2>Hablemos</h2>
+          <p class="section__body">Si estás armando un proyecto editorial o querés charlar sobre datos y diseño, escribime.</p>
+          <div class="hero__actions hero__actions--center">
+            <!-- Reemplazar por tu email real -->
+            <a class="btn btn--solid" href="mailto:matilde.rodriguez@example.com">matilde.rodriguez@example.com</a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/mmatilder" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn btn--ghost" href="https://github.com/mmatilder" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="colophon-footer">
+    <p>María Matilde Rodríguez, editora — Buenos Aires.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
